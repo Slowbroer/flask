@@ -5,7 +5,7 @@ import os
 
 
 class Config():
-    DEBUG_HOST_NAMES = []
+    DEBUG_HOST_NAMES = ['tanglihao-PC', 'AJBC-1498']
     MASTER_HOST_NAME = 'jiangzhiming-virtual-machine'
     HOST_NAME = socket.gethostname()
     IS_MASTER_SERVER = [False, True][HOST_NAME == MASTER_HOST_NAME]
